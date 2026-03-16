@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sales Analytics Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body{
+font-family: Arial;
+text-align:center;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+width:90%;
+margin:auto;
+}
+
+canvas{
+max-width:700px;
+height:300px !important;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Sales Analytics Dashboard</h2>
+
+<div class="dashboard">
+
+<canvas id="productChart"></canvas>
+<canvas id="countryChart"></canvas>
+<canvas id="monthlyChart"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
